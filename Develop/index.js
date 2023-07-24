@@ -34,7 +34,7 @@ return inquirer.prompt([
     },
     {
     type: 'Input',
-    name: 'dependencies',
+    name: 'installation',
     message: 'What command should be run to install dependencies?',
     },
     {
@@ -44,7 +44,7 @@ return inquirer.prompt([
     },
     {
     type: 'Input',
-    name: 'about',
+    name: 'usage',
     message: 'What does the user need to know about using the repo?',
     },
     {
