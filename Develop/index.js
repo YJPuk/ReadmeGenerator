@@ -59,9 +59,6 @@ return inquirer.prompt([
     },
   ])};
 
-
-  
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(`./generated/${fileName}.md`, data, (err) =>

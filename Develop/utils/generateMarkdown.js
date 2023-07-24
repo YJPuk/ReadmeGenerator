@@ -1,6 +1,20 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const licenses = ["MIT", "Apache 2.0", "BSD 3", "GPL 3.0", "None"]
+function renderLicenseBadge(license) {
+  if (license===licenses[0]){
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  } else if (license===licenses[1]){
+    return "[[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  } else if (license===licenses[2]){
+    return "[[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+  } else if (license===licenses[3]){
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+  } else {
+  return ""  
+  }
+}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
