@@ -19,7 +19,7 @@ The Readme Generator Application page includes
 <h4>&#x2022; A license badge is also added based on the user input</h4> 
 <h4>&#x2022; Clicking on the links on the Table of Contents will lead to the corresponding section of the README</h4> 
 
-This was built using Node.js, Javascript, NPM Inquirer and love.
+This was built using Node.js, Javascript, Inquirer and love.
 
 <hr>
 
