@@ -1,5 +1,28 @@
 # 09 Node.js Challenge: Professional README Generator
 
+# Walkthorough Video/Gif link: https://yjpuk.github.io/ReadmeGenerator/walkthrough.gif
+
+Screenshot of page: 
+https://github.com/YJPuk/ReadmeGenerator/blob/main/Screenshots/1.png
+
+<hr>
+
+Description
+
+As coding student I'm trying to create a simple Readme Generator application that utilizes Node.js I am provided with a starter code and I have added these features to match the Acceptance Criteria listed in the task below. 
+
+The Readme Generator Application page includes
+<h4>&#x2022; A modified starter code </h4> 
+<h4>&#x2022; Upon using a command-line application it accepts user input </h4> 
+<h4>&#x2022; A professional README.md is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions </h4> 
+<h4>&#x2022; The Readme displays all of the user inputs in the corresponding areas </h4> 
+<h4>&#x2022; A license badge is also added based on the user input</h4> 
+<h4>&#x2022; Clicking on the links on the Table of Contents will lead to the corresponding section of the README</h4> 
+
+This was built using Node.js, Javascript, NPM Inquirer and love.
+
+<hr>
+
 ## Your Task
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 

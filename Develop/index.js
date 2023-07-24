@@ -61,7 +61,7 @@ const answers = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(`./generated/${fileName}.md`, generateMarkdown(data), (err) =>
-    err ? console.log(err): console.log('Success!'));
+    err ? console.log(err): console.log('Success your README has been generated, find it in the "generated" folder'));
 }
 
 // TODO: Create a function to initialize app
