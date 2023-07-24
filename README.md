@@ -2,7 +2,8 @@
 
 <hr>
 
-# Walkthrough Video/Gif link: https://github.com/YJPuk/ReadmeGenerator/blob/main/walkthrough.gif
+# Walkthrough Video/Gif link: 
+https://github.com/YJPuk/ReadmeGenerator/blob/main/walkthrough.gif
 
 # Walkthrough Gif:
 ![User Inputs via CLI.](./walkthrough.gif)
