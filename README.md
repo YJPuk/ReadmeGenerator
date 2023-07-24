@@ -1,5 +1,7 @@
 # 09 Node.js Challenge: Professional README Generator
 
+<hr>
+
 # Walkthrough Video/Gif link: https://github.com/YJPuk/ReadmeGenerator/blob/main/walkthrough.gif
 
 # Walkthrough Gif:
