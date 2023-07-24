@@ -52,6 +52,11 @@ return inquirer.prompt([
     name: 'contributing',
     message: 'What does the user need to know about contributing to the repo?',
     },
+    {
+    type: 'Input',
+    name: 'fileName',
+    message: 'What would you like to name the Readme?',
+    },
   ])};
 
 
@@ -59,17 +64,14 @@ return inquirer.prompt([
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(`./generated/${fileName}.md`, data, (err) =>
+    err ? console.log(err): console.log('Success!'));
 }
 
-// .then((answers) => {
-//     const readmeContent = generateReadme(answers)
-//     fs.writeFile('./generated/README.md', readmeContent, (err) =>
-//     err ? console.log(err): console.log('Success!')
-//     ); 
-
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    writeToFile((answers.fileName),(generateMarkdown(answers)));
+}
 
 // Function call to initialize app
 init();
