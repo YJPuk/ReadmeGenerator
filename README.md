@@ -5,6 +5,10 @@
 # Walkthrough Gif:
 ![User Inputs via CLI.](./walkthrough.gif)
 
+# Sample README.md file:
+https://github.com/YJPuk/ReadmeGenerator/blob/main/Develop/generated/README.md
+
+
 <hr>
 
 Description
