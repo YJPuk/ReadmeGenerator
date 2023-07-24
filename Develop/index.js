@@ -51,11 +51,6 @@ const answers = [
     name: 'contributing',
     message: 'What does the user need to know about contributing to the repo?',
     },
-    {
-    type: 'Input',
-    name: 'fileName',
-    message: 'What would you like to name the Readme?',
-    },
   ];
 
 // TODO: Create a function to write README file
